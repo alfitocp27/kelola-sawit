@@ -91,8 +91,8 @@ Ayah exports monthly harvest + maintenance data to CSV for spreadsheet analysis,
 - **FR-003**: System MUST display harvest history and offer prior weight + price as defaults for the next entry.
 - **FR-004**: System MUST preserve a history of sale price per kg for each harvest entry (P0/MVP).
 - **FR-005**: System MUST preserve a history of harvested weight (kg) per harvest/setoran entry (P0/MVP).
-- **FR-006**: System MUST allow recording maintenance expenses categorized as fertilizer (pemupuan), spraying (semprot), or other (lainnya).
-- **FR-007**: System MUST display a summary report per plot showing total revenue, total expenses, and net result for the selected period.
+- **FR-006**: System MUST allow recording maintenance expenses categorized as fertilizer (pemupukan), spraying (semprot), or other (lainnya).
+- **FR-007**: System MUST display a summary report per plot showing total revenue, total expenses, and net result for the selected period, supporting daily, monthly, yearly, and user-defined date range views.
 - **FR-008**: System MUST support a single shared family account protected by a PIN/passcode, with session cookies marked Secure and HttpOnly.
 - **FR-009**: System MUST rate-limit login attempts (5 failed attempts → cooling period).
 - **FR-010**: System MUST export per-plot harvest and maintenance data to CSV.
