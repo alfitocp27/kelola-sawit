@@ -1,0 +1,23 @@
+# Machine-local Spec Kit state (per-checkout, not shareable)
+.specify/feature.json
+.specify/local-config.yml
+.specify/extensions/*/local-config.yml
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node / build artifacts (preemptif for future)
+node_modules/
+dist/
+dist-ssr/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
